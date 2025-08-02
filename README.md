@@ -1,4 +1,3 @@
-# SQL_Projects
 # SQL Project: Tech Layoffs – Data Cleaning & Exploratory Analysis
 
 ## Introduction
