@@ -33,6 +33,7 @@ The dataset includes global tech layoff records from 2020 onward, with attribute
 ### Key SQL Concepts Used:
 - Common Table Expressions (CTEs)
 - `ROW_NUMBER()` for de-duplication
+- Self-joins for handling missing values
 - String functions: `TRIM()`, `LOWER()`
 - UPDATE, DELETE, ALTER, DROP columns and tables
 - STR_TO_DATE()
@@ -46,13 +47,13 @@ The dataset includes global tech layoff records from 2020 onward, with attribute
 
 ### Key Questions Explored:
 - Which companies had the highest layoffs in a single year?
-- In which industries the layoffs are decreasing over time?
-- What are the rolling totals by year in top five countries?
+- In which industries are the layoffs decreasing over time?
+- What are the rolling totals by year in the top five countries?
 - What countries were most affected?
-- Which companies laid of 100% of their employees?
-- Which is the highest single day layoff event?
+- Which companies laid off 100% of their employees?
+- Which is the highest single-day layoff event?
 - How do layoff trends differ by funding stage?
-- What is the cumulative layoffs by industry over the years?
+- What are the cumulative layoffs by industry over the years?
 - What was the month and year with the highest layoffs globally?
 
 ### Techniques Used:
