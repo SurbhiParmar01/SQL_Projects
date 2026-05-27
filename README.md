@@ -1,9 +1,7 @@
 # Analyzing Global Tech Layoffs - SQL (MySQL)
 
-> **Which companies, countries, and industries drove 383,000+ tech layoffs — and is the sector recovering?**
+> **Which companies, countries, and industries drove 383,000+ tech layoffs - and is the sector recovering?**
 > Using SQL alone, this project cleans a raw global layoffs dataset and extracts a clear story about who laid off the most, when, and why — using window functions, CTEs, and aggregations from scratch.
-
-🔗 **[View Full SQL Code on GitHub](https://github.com/SurbhiParmar01/SQL_Projects)**
 
 [View data cleaning SQL script](./Data_Cleaning.sql)
 
@@ -79,6 +77,8 @@ Global tech layoff records from March 2020 onward, sourced from public layoff tr
 
 ### 1. Data Cleaning
 
+[View data cleaning SQL script](./Data_Cleaning.sql)
+
 All cleaning was performed in SQL using a staging table (`layoffs_staging2`) - keeping the original data intact while working on a clean copy.
 
 | Step | SQL Technique | Why It Matters |
@@ -91,6 +91,8 @@ All cleaning was performed in SQL using a staging table (`layoffs_staging2`) - k
 | Dropped staging columns | `ALTER TABLE DROP COLUMN` | Keeps working table lean for query performance |
 
 ### 2. Exploratory Data Analysis (EDA)
+
+[View EDA SQL script](./Exploratory_Data_Analysis.sql)
 
 SQL was used to systematically answer each business question - moving from simple aggregations to advanced window functions as the analysis deepened.
 
@@ -177,22 +179,22 @@ ORDER BY pct_change ASC;
 ### 1. Layoffs by Funding Stage
 Post-IPO companies laid off **160K+ employees in 2022** - far exceeding every other funding category. Despite a slight decline in 2023, Post-IPO remained the most affected stage, indicating prolonged instability in public markets.
 
-![Layoffs by Funding Stage](assets/img/Funding_Stages.png)
+![Layoffs by Funding Stage](Funding_Stages.png)
 
 ### 2. Top 5 Companies per Year
 Google (12,000), Microsoft (10,000), Amazon (10,150), Meta, and Ericsson (8,500) dominated 2022–2023 - all profitable companies making strategic workforce resets, not emergency cuts.
 
-![Top Companies by Layoffs](assets/img/Max_Layoffs.png)
+![Top Companies by Layoffs](Max_Layoffs.png)
 
 ### 3. Rolling Layoff Totals by Country
 U.S. cumulative total reached ~1.5 million by end of 2022. India, Brazil, Netherlands, and Sweden combined were barely visible on the same scale.
 
-![Rolling Totals by Country](assets/img/Rolling_Totals.png)
+![Rolling Totals by Country](Rolling_Totals.png)
 
 ### 4. Industries with Largest YoY Reductions
 Transportation: **-98.6%** from 2020 to 2021. Travel, Real Estate, Food, and Retail all recovered faster than tech - driven by post-lockdown demand rather than structural correction.
 
-![Industry Layoff Reductions](assets/img/Layoffs_Reduction.png)
+![Industry Layoff Reductions](Layoffs_Reduction.png)
 
 ---
 
