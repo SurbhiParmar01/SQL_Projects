@@ -223,6 +223,6 @@ Transportation: **-98.6%** from 2020 to 2021. Travel, Real Estate, Food, and Ret
 
 ## Connect
 
-**Portfolio:** [surbhiparmar01.github.io](https://surbhiparmar01.github.io)
+**Portfolio:** [surbhiparmar01.github.io](https://surbhiparmar01.github.io/SurbhiParmarPortfolio/)
 **LinkedIn:** [linkedin.com/in/surbhiparmar](https://www.linkedin.com/in/surbhiparmar/)
 **GitHub:** [github.com/SurbhiParmar01](https://github.com/SurbhiParmar01)
